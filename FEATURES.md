@@ -12,3 +12,13 @@ Install them from this repository:
 
     mkdir -p "$HOME/.local/bin"
     install -m 0755 features/planorama-os-workspace features/planorama-os-plan features/planorama-os-check "$HOME/.local/bin/"
+
+## Preinstalled purpose software
+
+The installer adds these three Flathub applications for project management:
+
+1. **GNOME Calendar** — org.gnome.Calendar
+2. **KeePassXC** — org.keepassxc.KeePassXC
+3. **GIMP** — org.gimp.GIMP
+
+They are installed from Flathub during setup. The repository contains application IDs and documentation, not third-party binaries; each publisher’s terms and licenses apply.
